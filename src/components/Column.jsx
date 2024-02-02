@@ -1,4 +1,4 @@
-import './Column.css';
+import './column.css';
 
 const Column = ({ state }) => {
   return <div className='column'>{state}</div>;
