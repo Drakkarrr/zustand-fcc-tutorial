@@ -4,9 +4,10 @@ function App() {
   return (
     <>
       <Column state='PLANNED' />
+      <br />
       <Column state='ONGOING' />
+      <br />
       <Column state='DONE' />
-      <h1>Hello Zustand App!</h1>
     </>
   );
 }

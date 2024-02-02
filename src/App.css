@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+body {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
