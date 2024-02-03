@@ -1,4 +1,5 @@
 import Column from './components/Column';
+import CounterBear from './components/CounterBear';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Column state='ONGOING' />
       <br />
       <Column state='DONE' />
+      <br />
+      <CounterBear />
     </>
   );
 }

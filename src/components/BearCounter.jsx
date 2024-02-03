@@ -1,4 +1,4 @@
-import { useStore } from 'zustand';
+import { useStore } from '../store/useStore.js';
 
 function BearCounter() {
   const bears = useStore((state) => state.bears);

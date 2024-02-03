@@ -1,4 +1,4 @@
-import { useStore } from 'zustand';
+import { useStore } from '../store/useStore.js';
 
 function Controls() {
   const increasePopulation = useStore((state) => state.increasePopulation);
